@@ -232,13 +232,14 @@ main {
     display: flex;
     flex-wrap: wrap; 
     padding: 10px;
+    justify-content: center;
   }
   
 
 
 .workapp-child {
     display: inline-block;
-    
+    width: 45%;
     font-family: "Open Sans", Arial;
     font-size: 20px;
     color: white;
@@ -255,7 +256,7 @@ main {
 
   .workapp-child a {
     display: block;
-    height: 300px;
+    height: 250px;
     padding: 10px 10px 60px 10px;
     font-size: 25px;
     text-align: left;
@@ -291,15 +292,17 @@ main {
     font-size: 14px;
   }
   
-
+/*
   .workapp-child:first-child {
     width: 100%;
   }
-  
-  .workapp-child:not(:first-child) {
+
+   .workapp-child:not(:first-child) {
     flex: 1;
     min-width: 300px;
   }
+  */
+ 
 
 
 
