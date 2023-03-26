@@ -1,11 +1,17 @@
 
 const sgMail = require('@sendgrid/mail');
 
+if (process.env.NODE_ENV !== 'production') {
+  require('dotenv').config();
+}
+
+
+
 module.exports = {
 
   async sendmail(req, res) {
 
-    sgMail.setApiKey('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');
+    sgMail.setApiKey(process.env.SENDGRID_API);
 
     const msgData = {
       to: 'winglovework@gmail.com', // Change to your recipient
