@@ -11,22 +11,21 @@ Welcome to my portfolio, I'm Wing! Here you'll find my latest projects, as well 
 
 ## Table of Contents
 
-- [Usage](#usage)
+- [Live Site](#live-site)
 - [Preview](#preview)
 - [Questions](#questions)
 - [License](#license)
 
 
+## Live Site
+
+https://winglovecola.herokuapp.com/
+
+
 
 ## Preview
 
-![Screenshot](https://github.com/winglovecola/quick-note/blob/main/public/assets/images/screenshot.jpg?raw=true)
-
-
-
-## Usage
-
-https://winglovecola.herokuapp.com/
+![Screenshot](https://github.com/winglovecola/my-portfolio/blob/main/client/public/src/img/screenshot.jpg?raw=true)
 
 
 
