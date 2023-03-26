@@ -5,7 +5,7 @@
 
 ## Description
 
-Welcome to my portfolio, I'm Wing! Here you'll find my latest projects, as well as my resume, contact information, and links to my GitHub and LinkedIn profiles. This portfolio was built using HTML, CSS, an Express server, React, and a mail API. I'm confident that my skills make me a strong candidate for your job position. If you have any questions, please don't hesitate to reach out to me via the contact form or by email. Thank you for visiting!
+Welcome to my portfolio, I'm Wing! Here you'll find my latest projects, as well as my resume, contact information, and links to my GitHub and LinkedIn profiles. This portfolio was built using HTML, CSS, Node Express server, React, and a mail API. I'm confident that my skills make me a strong candidate for your job position. If you have any questions, please don't hesitate to reach out to me via the contact form or by email. Thank you for visiting!
 
 
 
