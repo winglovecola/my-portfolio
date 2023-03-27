@@ -14,7 +14,7 @@ module.exports = {
     sgMail.setApiKey(process.env.SENDGRID_API);
 
     const msgData = {
-      to: 'winglovework@gmail.com', // Change to your recipient
+      to: 'winglovecola@gmail.com', // Change to your recipient
       from: 'winglovework@gmail.com', // Change to your verified sender
       subject: 'Portfolio Contact',
       text: req.body.msg,
