@@ -142,7 +142,7 @@ export default function Form() {
             <a href="https://github.com/winglovecola">https://github.com/winglovecola</a><br/><br/>
 
             <h3>LinkedIn:</h3>
-            <a href="https://www.linkedin.com/in/winglovecola">https://www.linkedin.com/in/winglovecola</a><br/><br/>
+            <a href="https://www.linkedin.com/in/winglovecola">https://linkedin.com/in/winglovecola</a><br/><br/>
           </div>
 
 

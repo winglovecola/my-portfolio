@@ -16,7 +16,7 @@ export default function Blog() {
 
           <div>
             <h2>LinkedIn</h2>
-            <a href="https://www.linkedin.com/in/winglovecola/" target="_blank" rel="noreferrer" ><img src="/src/img/icons/linkedin.png" alt="LinkIn Icon" /><br />View My LinkedIn</a>
+            <a href="https://linkedin.com/in/winglovecola/" target="_blank" rel="noreferrer" ><img src="/src/img/icons/linkedin.png" alt="LinkIn Icon" /><br />View My LinkedIn</a>
 
           </div>
 

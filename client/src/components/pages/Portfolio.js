@@ -41,11 +41,11 @@ export default function Home() {
 
           <div id="workapp6" className="workapp-child">
 
-            <a href="https://developer.mozilla.org/en-US/docs/Web/Security" target="_blank" rel="noreferrer">
+            <a href="https://github.com/winglovecola/oracle" target="_blank" rel="noreferrer">
               <div>
-                <h2>Cyber Security</h2>
+                <h2>Oracle</h2>
 
-                <span>Code Improvement / Data Encryption</span>
+                <span>Voice Recognition / Text to Speech</span>
               </div>
             </a>
           </div>
