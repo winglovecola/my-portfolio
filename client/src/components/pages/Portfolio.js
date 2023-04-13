@@ -8,77 +8,80 @@ export default function Home() {
       <div id="work-title" className="content-title">My Projects</div>
       <div id="work-content" >
 
-        <div className="workapp" >
+        <div className="workapp">
           <div id="workapp1" className="workapp-child">
-            <a href="https://github.com/winglovecola/love-link" target="_blank" rel="noreferrer">
-              <div>
+              <div class="title">
                 <h2>Love Link</h2>
-
                 <span>Firebase Chat / Virtual AI</span>
               </div>
-            </a>
+
+              <div class="links">
+                  <div>App: <a href="https://love-link.herokuapp.com/" target="_blank" rel="noreferrer">https://love-link.herokuapp.com</a></div>
+                  <div>GitHub: <a href="https://github.com/winglovecola/love-link" target="_blank" rel="noreferrer">https://github.com/winglovecola/love-link</a></div>
+              </div>
           </div>
 
           <div id="workapp2" className="workapp-child">
-            <a href="https://github.com/winglovecola/vacation-inspiration" target="_blank" rel="noreferrer">
-              <div>
+              <div class="title">
                 <h2>Vacation Inspriation</h2>
-
                 <span>Google Map API / Open AI (ChatGPT)</span>
               </div>
-            </a>
+              <div class="links">
+                  <div>App: <a href="https://winglovecola.github.io/vacation-inspiration/" target="_blank" rel="noreferrer">https://winglovecola.github.io/vacation-inspiration</a></div>
+                  <div>GitHub: <a href="https://github.com/winglovecola/vacation-inspiration" target="_blank" rel="noreferrer">https://github.com/winglovecola/vacation-inspiration</a></div>
+              </div>
           </div>
 
           <div id="workapp5" className="workapp-child">
-            <a href="https://telemedmd.ca/" target="_blank" rel="noreferrer">
-              <div>
-                <h2>Telemed MD</h2>
-
-                <span>Ionic / iOS & Android App</span>
+            
+              <div class="title">
+                <h2>Knowledge Wheel</h2>
+                <span>JavaScript / Google Book Api</span>
               </div>
-            </a>
+        
+
+              <div class="links">
+                  <div>App: <a href="https://winglovecola.github.io/knowledge-wheel/" target="_blank" rel="noreferrer">https://winglovecola.github.io/knowledge-wheel</a></div>
+                  <div>GitHub: <a href="https://github.com/winglovecola/knowledge-wheel" target="_blank" rel="noreferrer">https://github.com/winglovecola/knowledge-wheel</a></div>
+              </div>
           </div>
 
           <div id="workapp6" className="workapp-child">
-
-            <a href="https://github.com/winglovecola/oracle" target="_blank" rel="noreferrer">
-              <div>
+              <div class="title">
                 <h2>Oracle</h2>
-
-                <span>Voice Recognition / Text to Speech</span>
+                <span>Voice Recognition / Text to Speech / Open AI</span>
               </div>
-            </a>
+
+              <div class="links">
+                  <div>App: <a href="https://oracle-online.herokuapp.com/" target="_blank" rel="noreferrer">https://oracle-online.herokuapp.com</a></div>
+                  <div>GitHub: <a href="https://github.com/winglovecola/oracle" target="_blank" rel="noreferrer">https://github.com/winglovecola/oracle</a></div>
+              </div>
           </div>
 
           <div id="workapp7" className="workapp-child">
-            <a href="https://github.com/winglovecola/weather-mate" target="_blank" rel="noreferrer">
-              <div>
-                <h2>Weather Mate</h2>
+            <div  class="title">
+              <h2>Weather Mate</h2>
+              <span>JavaScript / HTML / REST Api</span>
+            </div>
 
-                <span>HTML / REST Api</span>
+            <div class="links">
+                  <div>App: <a href="https://winglovecola.github.io/weather-mate" target="_blank" rel="noreferrer">https://winglovecola.github.io/weather-mate</a></div>
+                  <div>GitHub: <a href="https://github.com/winglovecola/weather-mate" target="_blank" rel="noreferrer">https://github.com/winglovecola/weather-mate</a></div>
               </div>
-            </a>
           </div>
 
           <div id="workapp8" className="workapp-child">
-            <a href="https://www.cs.cmu.edu/~efros/courses/LBMV07/Papers/tu-ijcv-05.pdf" target="_blank" rel="noreferrer">
-              <div>
-                <h2>Witomy</h2>
+            <div  class="title">
+              <h2>Trivia Quest</h2>
+              <span>JavaScript / CSS</span>
+            </div>
 
-                <span>Image Parsing / Data Security</span>
+            <div class="links">
+                  <div>App: <a href="https://winglovecola.github.io/trivia-quest" target="_blank" rel="noreferrer">https://winglovecola.github.io/trivia-quest</a></div>
+                  <div>GitHub: <a href="https://github.com/winglovecola/trivia-quest" target="_blank" rel="noreferrer">https://github.com/winglovecola/trivia-quest</a></div>
               </div>
-            </a>
           </div>
 
-          <div id="workapp9" className="workapp-child">
-            <a href="https://bootcamp.learn.utoronto.ca/" target="_blank" rel="noreferrer">
-              <div>
-                <h2>UofT Full Stack Bootcamp</h2>
-
-                <span>JavaScript / React / MERN</span>
-              </div>
-            </a>
-          </div>
 
         </div>
 

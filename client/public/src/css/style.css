@@ -165,7 +165,7 @@ main {
     width: 100%;
     max-width: 1500px;
     border-radius: 10px;
-    background-color: rgb(255, 255, 255, 0.70);
+    background-color: rgb(255, 255, 255, 0.60);
     font-family:  "Arial";
     font-size: 20px;
     margin-left:auto;
@@ -214,14 +214,14 @@ main {
 
 /*work section*/
 #portfolio {
-    border-top: 1px solid rgb(184, 41, 134); 
-    border-bottom: 1px solid rgb(184, 41, 134); 
+    border-top: 1px solid rgb(255, 163, 163); 
+    border-bottom: 1px solid rgb(255, 163, 163); 
 }
 
 
 #portfolio #work-title {
-    border-top: 1px solid rgb(184, 41, 134); 
-    border-bottom: 1px solid rgb(184, 41, 134); 
+    border-top: 1px solid rgb(255, 163, 163); 
+    border-bottom: 1px solid rgb(255, 163, 163); 
     border-left: 1px solid rgb(255, 235, 248); 
     border-right: 1px solid rgb(255, 235, 248); 
 }
@@ -232,51 +232,75 @@ main {
     display: flex;
     flex-wrap: wrap; 
     padding: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     justify-content: center;
+    
   }
   
 
 
 .workapp-child {
     display: inline-block;
+    position: relative;
     width: 45%;
+    height: 270px;
+    border-radius: 10px;
+    border: 1px solid rgb(105, 105, 105);
     font-family: "Open Sans", Arial;
     font-size: 20px;
     color: white;
     text-align: center;
     border-radius: 10px;
     margin: 12px;
-    background-repeat: repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
     background-color: black;
-    opacity: 0.95;
-  }
-
-
-
-
-  .workapp-child a {
-    display: block;
-    height: 250px;
-    padding: 10px 10px 60px 10px;
-    font-size: 25px;
     text-align: left;
-    border-radius: 10px;
-    border: 1px solid black;
+    opacity: 0.9;
+    box-sizing: border-box;
   }
 
 
-  
 
-  .workapp-child a div {
+ 
+  .workapp-child .links {
+
+    display: block;
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 12px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    text-align: left;
+    font-size: 20px;
+  }
+
+
+  .workapp-child .title {
 
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.8);
-    color: white;
-    padding: 12px;
-    text-align: left;
-    font-size: 20px;
     border-radius: 10px;
-    opacity: 0.9;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    text-align: left;
+  }
+
+  .workapp-child .title h2 {
+
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+
+  .workapp-child .title span {
+
+    font-size: 16px;
   }
 
   .workapp-child:hover {
@@ -284,13 +308,10 @@ main {
   }
   
 
-  .workapp-child:hover a div{
+  .workapp-child:hover .title{
     box-shadow: 3px 3px 10px #ffffff;
   }
   
-  .workapp-child a div span {
-    font-size: 14px;
-  }
   
 /*
   .workapp-child:first-child {
@@ -312,33 +333,73 @@ main {
     background-image: url("/src/img/workapp1.jpg");
   }
 
-  #workapp1 a:hover {
-    box-shadow: 7px 7px 20px #ff7575;
+  #workapp1:hover {
+    box-shadow: 7px 7px 20px #ff9175;
   }
+
+  #workapp1 .links{
+    background-color: rgba(255, 195, 195, 0.8);
+    color: rgb(0, 0, 0);
+  }
+    
+  #workapp1 .links a{
+    color:rgb(78, 20, 20);
+  }
+
 
   #workapp2 {
     background-image: url("/src/img/workapp2.jpg");
   }
 
-  #workapp2 a:hover {
-    box-shadow: 7px 7px 20px #8ed8ff;
+  #workapp2:hover {
+    box-shadow: 7px 7px 20px #5fc7ff;
   }
+
+  #workapp2 .links{
+    background-color: rgba(210, 255, 255, 0.8);
+    color: rgb(0, 0, 0);
+  }
+    
+  #workapp2 .links a{
+    color:rgb(32, 61, 84);
+  }
+
+
 
   #workapp5 {
     background-image: url("/src/img/workapp5.jpg");
   }
 
-  #workapp5 a:hover {
-    box-shadow: 7px 7px 20px #2587ff;
+  #workapp5:hover {
+    box-shadow: 7px 7px 20px #deff25;
   }
+
+  #workapp5 .links{
+    background-color: #fffde1;
+    color: rgb(0, 0, 0);
+  }
+    
+  #workapp5 .links a{
+    color:rgb(51, 99, 167);
+  }
+
 
 
   #workapp6 {
     background-image: url("/src/img/workapp6.jpg");
   }
   
-  #workapp6 a:hover {
-    box-shadow: 7px 7px 20px #19b811;
+  #workapp6 .links{
+    background-color: rgba(153, 151, 255, 0.8);
+    color: rgb(255, 255, 255);
+  }
+    
+  #workapp6 .links a{
+    color:rgb(222, 219, 255);
+  }
+
+  #workapp6:hover {
+    box-shadow: 7px 7px 20px #8461ee;
   }
 
 
@@ -346,8 +407,18 @@ main {
     background-image: url("/src/img/workapp7.jpg");
   }
 
-  #workapp7 a:hover {
-    box-shadow: 7px 7px 20px #951bdc;
+  #workapp7 .links{
+    background-color: rgba(119, 205, 255, 0.8);
+    color: rgb(0, 0, 0);
+  }
+    
+  #workapp7 .links a{
+    color:rgb(54, 113, 200);
+  }
+
+
+  #workapp7:hover {
+    box-shadow: 7px 7px 20px #1ba9dc;
   }
 
 
@@ -355,17 +426,18 @@ main {
     background-image: url("/src/img/workapp8.jpg");
   }
 
-  #workapp8 a:hover {
-    box-shadow: 7px 7px 20px #e77ba9;
+  #workapp8 .links{
+    background-color: rgba(255, 230, 212, 0.8);
+    color: rgb(0, 0, 0);
+  }
+    
+  #workapp8 .links a{
+    color:rgb(57, 39, 21);
   }
 
 
-  #workapp9 {
-    background-image: url("/src/img/workapp9.jpg");
-  }
-
-  #workapp9 a:hover {
-    box-shadow: 7px 7px 20px #eb813b;
+  #workapp8:hover {
+    box-shadow: 7px 7px 20px #ffb086;
   }
 
 
@@ -445,8 +517,8 @@ main {
 
 /* resume section */
 #resume {
-    border-top: 1px solid rgb(190, 98, 22); 
-    border-bottom: 1px solid rgb(190, 98, 22); 
+    border-top: 1px solid rgb(22, 126, 190); 
+    border-bottom: 1px solid rgb(22, 126, 190); 
 
     padding: 50px 20px 40px 60px;
 }
@@ -454,8 +526,8 @@ main {
 
 #resume #resume-title {
 
-    border-top: 1px solid rgb(190, 98, 22); 
-    border-bottom: 1px solid rgb(190, 98, 22); 
+    border-top: 1px solid rgb(22, 126, 190); 
+    border-bottom: 1px solid rgb(22, 126, 190); 
     border-left: 1px solid rgb(255, 237, 222); 
     border-right: 1px solid rgb(255, 237, 222); 
 
