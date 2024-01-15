@@ -53,7 +53,7 @@ export default function Home() {
               </div>
 
               <div class="links">
-                  <div>App: <a href="https://oracle-online.herokuapp.com/" target="_blank" rel="noreferrer">https://oracle-online.herokuapp.com</a></div>
+                  <div>App: <a href="https://oracle-online-aa3863530ca8.herokuapp.com/" target="_blank" rel="noreferrer">https://oracle-online-aa3863530ca8.herokuapp.com/</a></div>
                   <div>GitHub: <a href="https://github.com/winglovecola/oracle" target="_blank" rel="noreferrer">https://github.com/winglovecola/oracle</a></div>
               </div>
           </div>

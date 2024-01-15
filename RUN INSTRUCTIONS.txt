@@ -1,0 +1,3 @@
+After open this project in visual studio code run:
+
+npm run develop
