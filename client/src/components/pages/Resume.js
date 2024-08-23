@@ -10,7 +10,7 @@ export default function Blog() {
         <div id="resume-div" className="resume-div">
           <div >
             <h2>Resume</h2>
-            <a href="https://docs.google.com/document/d/19-dnjWrxKyUd7q5DshTJo3lJLFyW-_LmJZGze9WUYVE/edit?usp=sharing" target="_blank" rel="noreferrer" ><img src="/src/img/icons/word-doc-icon.png" alt="Google Doc Icon" /><br />View My Resume</a>
+            <a href="https://docs.google.com/document/d/19FakS76PjwwJzKQfTm0xuiWOt5MM7XLniYlltOjdYnU/edit?usp=sharing" target="_blank" rel="noreferrer" ><img src="/src/img/icons/word-doc-icon.png" alt="Google Doc Icon" /><br />View My Resume</a>
 
           </div>
 
