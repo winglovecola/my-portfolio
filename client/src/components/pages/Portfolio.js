@@ -9,6 +9,18 @@ export default function Home() {
       <div id="work-content" >
 
         <div className="workapp">
+        <div id="workapp9" className="workapp-child">
+              <div class="title">
+                <h2>AI-Debate</h2>
+                <span>ChatGPT / Gemini</span>
+              </div>
+
+              <div class="links">
+                  <div>App: <a href="https://ai-debate.pages.dev/" target="_blank" rel="noreferrer">https://ai-debate.pages.dev/</a></div>
+                  <div>GitHub: <a href="https://github.com/winglovecola/ai-debate" target="_blank" rel="noreferrer">https://github.com/winglovecola/ai-debate</a></div>
+              </div>
+          </div>
+
           <div id="workapp1" className="workapp-child">
               <div class="title">
                 <h2>Love Link</h2>

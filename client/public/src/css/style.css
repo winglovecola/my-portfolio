@@ -452,6 +452,38 @@ main {
 
 
 
+  #workapp9 {
+    background-image: url("/src/img/workapp9.jpg");
+  }
+
+  #workapp9 .links{
+    background-color: rgba(115, 164, 255, 0.8);
+    color: rgb(0, 0, 0);
+  }
+    
+  #workapp9 .links a{
+    color:rgb(255, 255, 255);
+  }
+
+
+  #workapp9:hover {
+    box-shadow: 7px 7px 20px #ffb086;
+  }
+
+
+
+  #workapp1:hover {
+    box-shadow: 7px 7px 20px #ff9175;
+  }
+
+  #workapp1 .links{
+    background-color: rgba(255, 195, 195, 0.8);
+    color: rgb(0, 0, 0);
+  }
+    
+  #workapp1 .links a{
+    color:rgb(78, 20, 20);
+  }
 
 
 /*contact me section*/
