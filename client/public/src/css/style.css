@@ -457,17 +457,17 @@ main {
   }
 
   #workapp9 .links{
-    background-color: rgba(115, 164, 255, 0.8);
-    color: rgb(0, 0, 0);
+    background-color: rgba(16, 113, 217, 0.8);
+    color: rgb(212, 212, 212);
   }
     
   #workapp9 .links a{
-    color:rgb(255, 255, 255);
+    color:rgb(207, 215, 255);
   }
 
 
   #workapp9:hover {
-    box-shadow: 7px 7px 20px #ffb086;
+    box-shadow: 7px 7px 20px #86a8ff;
   }
 
 

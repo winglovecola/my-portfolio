@@ -12,7 +12,7 @@ export default function Home() {
         <div id="workapp9" className="workapp-child">
               <div class="title">
                 <h2>AI-Debate</h2>
-                <span>ChatGPT / Gemini</span>
+                <span>ChatGPT / Gemini / AWS</span>
               </div>
 
               <div class="links">
@@ -36,7 +36,7 @@ export default function Home() {
           <div id="workapp2" className="workapp-child">
               <div class="title">
                 <h2>Vacation Inspriation</h2>
-                <span>Google Map API / Open AI (ChatGPT)</span>
+                <span>Google Map API / ChatGPT API</span>
               </div>
               <div class="links">
                   <div>App: <a href="https://winglovecola.github.io/vacation-inspiration/" target="_blank" rel="noreferrer">https://winglovecola.github.io/vacation-inspiration</a></div>
@@ -48,7 +48,7 @@ export default function Home() {
             
               <div class="title">
                 <h2>Knowledge Wheel</h2>
-                <span>JavaScript / Google Book Api</span>
+                <span>JavaScript / Google Book API</span>
               </div>
         
 
@@ -61,7 +61,7 @@ export default function Home() {
           <div id="workapp6" className="workapp-child">
               <div class="title">
                 <h2>Oracle</h2>
-                <span>Voice Recognition / Text to Speech / Open AI</span>
+                <span>Voice Recognition / Text to Speech / ChatGPT API</span>
               </div>
 
               <div class="links">
@@ -73,7 +73,7 @@ export default function Home() {
           <div id="workapp7" className="workapp-child">
             <div  class="title">
               <h2>Weather Mate</h2>
-              <span>JavaScript / HTML / REST Api</span>
+              <span>JavaScript / HTML / REST API</span>
             </div>
 
             <div class="links">
