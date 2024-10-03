@@ -451,6 +451,7 @@ main {
   }
 
 
+  
 
   #workapp9 {
     background-image: url("/src/img/workapp9.jpg");
@@ -458,7 +459,7 @@ main {
 
   #workapp9 .links{
     background-color: rgba(16, 113, 217, 0.8);
-    color: rgb(212, 212, 212);
+    color: rgb(185, 197, 255);
   }
     
   #workapp9 .links a{
@@ -469,6 +470,27 @@ main {
   #workapp9:hover {
     box-shadow: 7px 7px 20px #86a8ff;
   }
+
+
+  #workapp10 {
+    background-image: url("/src/img/workapp10.jpg");
+  }
+
+  #workapp10 .links{
+    background-color: rgba(117, 16, 217, 0.8);
+    color: rgb(190, 139, 211);
+  }
+    
+  #workapp10 .links a{
+    color:rgb(231, 207, 255);
+  }
+
+
+  #workapp10:hover {
+    box-shadow: 7px 7px 20px #86a8ff;
+  }
+
+
 
 
 

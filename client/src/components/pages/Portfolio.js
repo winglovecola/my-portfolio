@@ -21,6 +21,18 @@ export default function Home() {
               </div>
           </div>
 
+          <div id="workapp10" className="workapp-child">
+              <div class="title">
+                <h2>Fate And Fortune</h2>
+                <span>React / AWS Cognito / DynamoDB / Lamda</span>
+              </div>
+
+              <div class="links">
+                  <div>App: <a href="https://fateandfortune.com/" target="_blank" rel="noreferrer">https://fateandfortune.com/</a></div>
+                  <div>GitHub: Private</div>
+              </div>
+          </div>
+
           <div id="workapp1" className="workapp-child">
               <div class="title">
                 <h2>Love Link</h2>
